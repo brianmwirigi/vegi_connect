@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0.1, //remove shadow
         backgroundColor: Colors.green,
         title: const Text("VegiConnect"),
         actions: <Widget>[
@@ -42,12 +43,76 @@ class _HomePageState extends State<HomePage> {
         //parent
         child: ListView(
           //unique
-          children: const <Widget>[
+          children: <Widget>[
             //not uniques
             //header part of the drawer
             UserAccountsDrawerHeader(
-                accountName: Text("Brian Mwirigi"),
-                accountEmail: Text('bmmaingi17@gmail.com'))
+                accountName: const Text("Brian Mwirigi"),
+                accountEmail: const Text('bmmaingi17@gmail.com'),
+            currentAccountPicture: GestureDetector(
+              child: const CircleAvatar(
+                backgroundColor: Colors.grey,
+                child: Icon(Icons.person,color: Colors.white),
+              ),
+            ),
+            decoration: const BoxDecoration(
+              color: Colors.green
+            )
+            ),
+
+            //body of drawer
+           const InkWell(
+              child:  ListTile(
+                title: Text("HOME PAGE"),
+                leading: Icon(Icons.home),
+              ),
+            ),
+
+           const InkWell(
+              child:  ListTile(
+                title: Text("MY ACCOUNT"),
+                leading: Icon(Icons.person),
+              ),
+            ),
+
+            const InkWell(
+              child:  ListTile(
+                title: Text("MY ORDERS"),
+                leading: Icon(Icons.shopping_basket),
+              ),
+            ),
+
+           const InkWell(
+              child:  ListTile(
+                title: Text("CATEGORIES"),
+                leading: Icon(Icons.dashboard),
+              ),
+            ),
+
+            const InkWell(
+              child:  ListTile(
+                title: Text("FAVORITE"),
+                leading: Icon(Icons.favorite),
+              ),
+            ),
+
+           const  Divider(), //line dividing sections
+
+            const InkWell(
+              child:  ListTile(
+                title: Text("SETTINGS"),
+                leading: Icon(Icons.settings, color: Colors.blue),
+              ),
+            ),
+
+            const InkWell(
+              child:  ListTile(
+                title: Text("ABOUT"),
+                leading: Icon(Icons.help, color: Colors.green),
+              ),
+            ),
+
+
           ],
         ),
       ),
