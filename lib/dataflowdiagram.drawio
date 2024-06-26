@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2024-06-26T11:25:19.538Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.3" etag="GzEkGx1wG5gK--vASoXd" type="github">
+  <diagram name="Page-1" id="fPkag1AuLdsO3GAb4Wrs">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Vendor" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="527" width="272" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Vendor" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="632" y="133" width="66" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Signup" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="562" y="25" width="81" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Login" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="693" y="25" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Customer" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry width="364" height="457" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Customer" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="108" y="124" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Signup" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="48" y="25" width="81" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Login" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="179" y="25" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="View Product" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="152" y="301" width="126" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Order Product" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="149" y="400" width="132" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Application" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="399" y="25" width="93" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Registration" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.09;entryY=0;" edge="1" parent="1" source="8" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="88" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Authentication" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.92;entryY=0;" edge="1" parent="1" source="9" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="214" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Browse Products" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.34;entryY=0;" edge="1" parent="1" source="7" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="151" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Select Product" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Registration" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.09;entryY=0;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="603" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Authentication" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.92;entryY=0;" edge="1" parent="1" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Add Products" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1.01;entryX=0.67;entryY=0;" edge="1" parent="1" source="3" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="234" />
+              <mxPoint x="280" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
